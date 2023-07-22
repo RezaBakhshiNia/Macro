@@ -1,0 +1,63 @@
+#root {
+  background-color: cornsilk;
+  border-radius: 0.3rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid seashell;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+header {
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  color: white;
+}
+
+.handleActions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.addMacros,
+.deleteMacros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  outline: none;
+  color: whitesmoke;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  border: none;
+  cursor: pointer;
+  transition: 50ms;
+}
+
+.addMacros {
+  background-color: rgb(105, 190, 19);
+}
+.deleteMacros {
+  background-color: rgb(255, 0, 0);
+}
+
+.addMacros:focus,
+.deleteMacros:focus {
+  outline: none;
+}
+
+.addMacros:hover,
+.addMacros:active,
+.deleteMacros:hover,
+.deleteMacros:active {
+  border-bottom: 3px solid lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

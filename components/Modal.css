@@ -1,0 +1,94 @@
+.modal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #0000003d;
+  display: flex;
+}
+
+.modal-content {
+  width: max-content;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
+  background-color: grey;
+  padding: 2rem;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+  font-size: 2.3rem;
+}
+
+.nameInput,
+.subjectInput,
+.macroTypeInput,
+.modalButtons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nameInput,
+.subjectInput,
+.macroTypeInput {
+  column-gap: 1rem;
+}
+
+label {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(255, 240, 240);
+}
+
+.modalButtons {
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.cancelModal,
+.saveModal {
+  padding: 1rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.cancelModal:hover,
+.saveModal:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cancelModal {
+  background-color: rgb(250, 88, 88);
+}
+
+.saveModal {
+  background-color: #aaf1aa;
+}
+
+.inputs {
+  outline: none;
+  border:  none;
+  padding: 0.3rem;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.457);
+  background: rosybrown;
+  border-radius: 7px;
+  color: white;
+}

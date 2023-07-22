@@ -1,0 +1,50 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+td:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+td:last-child svg {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.material-symbols-outlined,
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.edit:hover {
+  color: salmon;
+}
+
+.delete:hover {
+  color: red;
+}
